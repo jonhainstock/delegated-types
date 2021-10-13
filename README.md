@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example of how to use Rails delegated types in your app. 
 
-Things you may want to cover:
+This pulls from examples DHH has shared on his series, ["On Writing Software Well"](https://www.youtube.com/watch?v=H5i1gdwe1Ls&list=PL3m89j0mV0pdNAg6x9oq6S8Qz_4C-yuwj), and [Javan's conference talk](https://www.youtube.com/watch?v=tmWlm0M6JSk).
 
-* Ruby version
+It's been fun learning more about this pattern.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I hope this repo is useful to you.
