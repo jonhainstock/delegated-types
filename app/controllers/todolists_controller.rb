@@ -5,6 +5,10 @@ class TodolistsController < ApplicationController
 		@todolists = Recording.todolists
 	end
 
+	def show
+		@todolst
+	end
+
 	def new
 		@todolist = Todolist.new
 	end
@@ -12,7 +16,7 @@ class TodolistsController < ApplicationController
 	def create
 		begin
 			Recording.record new_todo_list
-			redirect_to todolists_path, notice: 'Todlist created.'
+			redirect_to todolists_path, notice: 'Todolist created.'
 		rescue ActiveRecord::RecordInvalid => invalid
 			@todolist = invalid.record.recordable
 			render :new, status: :unprocessable_entity

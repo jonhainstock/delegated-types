@@ -1,0 +1,7 @@
+<%= form_with model: [recording, Todo.new] do |f| %>
+	<%= f.text_field :content %>
+	<%= f.submit %>
+<% end %>
+<% recording.todos.each do |todo| %>
+	<%= render todo %>
+<% end %>

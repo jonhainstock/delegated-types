@@ -1,2 +1,4 @@
-<h3><%= todolist.name %></h3>
-<p><%= todolist.description %></p>
+<%= link_to recording_todos_path(recording) do %>
+	<h3><%= todolist.name %></h3>
+	<p><%= todolist.description %></p>
+<% end %>
