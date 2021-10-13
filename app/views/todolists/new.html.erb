@@ -1,4 +1,5 @@
 <%= render partial: "errors", locals: { resource: @todolist } %>
+
 <%= form_with model: @todolist do |f| %>
 	<%= f.text_field :name %>
 	<%= f.text_field :description %>

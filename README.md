@@ -6,4 +6,12 @@ This pulls from examples DHH has shared on his series, ["On Writing Software Wel
 
 It's been fun learning more about this pattern.
 
-I hope this repo is useful to you.
+To get started, run `bundle install` to install gem dependencies.
+
+Next, create your database and run the migrations with `rails db:create db:migrate.`
+
+Finally, run `yarn install` to install javascript dependencies.
+
+From there, you can create an account and view the todolists and todo paradigm. 
+
+If you have any ideas for extending this and making it better, please create a pull request! 

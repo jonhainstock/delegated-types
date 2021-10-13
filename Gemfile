@@ -30,8 +30,8 @@ gem "bootsnap", ">= 1.4.4", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem "devise", github: "strobilomyces/devise", branch: "patch-1"
 gem "cssbundling-rails", ">= 0.1.0"
+gem "devise", github: "strobilomyces/devise", branch: "patch-1"
 gem 'hotwire-rails'
 gem "jsbundling-rails", "~> 0.1.0"
 gem "responders", github: "heartcombo/responders"
