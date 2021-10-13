@@ -1,5 +1,5 @@
 class Todo < ApplicationRecord
-	include Recordable
+  include Recordable
 
-	validates_presence_of :content
+  validates_presence_of :content
 end
