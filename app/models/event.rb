@@ -4,7 +4,7 @@ class Event < ApplicationRecord
 	
 	belongs_to :recording, required: false
 	belongs_to :recordable, polymorphic: true
-  belongs_to :recordable_previous, polymorphic: true, optional: true
+	belongs_to :recordable_previous, polymorphic: true, optional: true
 	
 	validates_presence_of :action
 
